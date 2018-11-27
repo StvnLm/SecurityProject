@@ -53,7 +53,6 @@ def send_commands(conn):
             print(c_resp)
 
 
-
 if __name__ == '__main__':
     create_socket()
     bind_socket()
