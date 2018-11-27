@@ -28,7 +28,6 @@ except Exception:
     pass
 
 # Random 'confirmation' popup
-
 top = tkinter.Tk()
 def popup():
     tkinter.messagebox.showinfo("Prize confirmation", "Contest entry confirmed!")
