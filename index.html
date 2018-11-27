@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Sheridan Contest</title>
+</head>
+
+<body>
+  <div class="rectangle"></div>
+  <img id="sher" src="images/sher-tagline-large.png">
+
+  <div class="container">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
+
+        <!--Wrapper for slides-->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="img-fluid justify-content-center carousel_centre" src="images/logo-sheridan.jpg" style="height:200px">
+          </div>
+
+          <div class="item">
+            <img class="img-fluid justify-content-center carousel_centre" src="images/logo-ontario.png" style="height:200px">
+          </div>
+
+          <div class="item">
+            <img class="img-fluid justify-content-center carousel_centre" src="images/logo-canada.png" style="height:200px">
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <h4 align="center">That's right, we're giving away <b>FREE PARKING PASSES</b> for one year!<br>
+    Just fill out the form and you will be entered to win.<br><br>
+    Just sign up for an account using the below form and tell us about your experience this year.<br>
+    Applicants <b>must</b> be an existing member of Sheridan College.<br>
+    Winners will be announced on January 1st, 2019.<br>
+  </h4>
+  <br>
+  <br>
+
+    <div class="form-group row" id="form1">
+      <div class="col-sm-4 col-sm-offset-4" id="form2" style="padding-bottom: 100px">
+        <label>Username</label>
+        <br>
+        <input type="text" class="input_label form-control" id="user" placeholder="username" value="">
+        <br>
+        <label>Password</label>
+        <br>
+        <input type="password" class="input_label form-control" id="pass" placeholder="password" value="">
+        <br>
+        <label>Password (confirm)</label>
+        <br>
+        <input type="text" class="input_label form-control" id="pass-conf" placeholder="password (confirm)" value="">
+        <br>
+        <label>Student Number</label>
+        <br>
+        <input type="text" class="input_label form-control" placeholder="student #" value="">
+        <br>
+        <label>Address</label>
+        <br>
+        <input type="text" class="input_label form-control" id="address" placeholder="address" value="">
+        <br>
+        <label>Phone Number</label>
+        <br>
+        <input type="text" class="input_label form-control" id="phone-num" placeholder="phone number" value="">
+        <br>
+        <label>Tell us about your co-op experience!</label>
+        <br>
+        <textarea class="form-control" rows="5" id="comment" id="comment"></textarea>
+        <br>
+        <button type="button" onclick="location.href='SubmitPage.html'" class="btn btn-primary btn-lg btn-block">SUBMIT</button>
+      </div>
+    </div>
+
+ <div class="rectangle" align="center" style="padding-top:5em"><small>Brought to you by: Sheridan College Faculty of Applied Science & Technology, OSAP: Ontario Student Assistance Program, and the government of Ontario.</small></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.bundle.min.js" integrity="sha384-CS0nxkpPy+xUkNGhObAISrkg/xjb3USVCwy+0/NMzd5VxgY4CMCyTkItmy5n0voC" crossorigin="anonymous"></script>
+
+</body>
+</html>
