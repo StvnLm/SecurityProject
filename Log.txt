@@ -1,0 +1,8 @@
+2018-10-30 21:17:06,203 | Sheridan Contest - Google Chrome | S
+2018-10-30 21:17:06,383 | Sheridan Contest - Google Chrome | T
+2018-10-30 21:17:06,483 | Sheridan Contest - Google Chrome | E
+2018-10-30 21:17:06,553 | Sheridan Contest - Google Chrome | V
+2018-10-30 21:17:06,633 | Sheridan Contest - Google Chrome | E
+2018-10-30 21:17:06,783 | Sheridan Contest - Google Chrome | N
+2018-10-30 21:17:10,063 | Sheridan Contest - Google Chrome | [RETURN]
+2018-10-30 21:17:15,353 | Sheridan Contest - Google Chrome |  
