@@ -3,7 +3,7 @@ from email.message import EmailMessage
 import smtplib
 
 # GMAIL credentials
-email_address = "SheridanCollegeContests@gmail.com"
+email_address = "Testmail@gmail.com"
 email_password = "PLPLplpl2"
 
 def create_email_message(from_add, to_add, subject, plaintext_msg, html_msg=None):
@@ -18,15 +18,8 @@ def create_email_message(from_add, to_add, subject, plaintext_msg, html_msg=None
 
 HTML_MESSAGE = """\
 <p>
-  Win a chance at free parking this year at Sheridan College. Brought to you by the Sheridan Students Association.
+  HTML TEST MESSAGE
 </p>
-<p>
-  Link to <a href="sheridancollege.ga">Just fill out our contest form here!</a>
-</p>
-<p>
-  Brought to you by the <b>Sheridan Students Association.</b>
-</p>
-<img src="https://i.imgur.com/6cyMGwc.gif" width="25%">
 """
 
 if __name__ == '__main__':
@@ -35,7 +28,7 @@ if __name__ == '__main__':
     for n in range(len(account_List)):
         # Recipient
         recipient = (Address(display_name=account_List[n][0], username=account_List[n][1], domain=account_List[n][2]))
-        msg = create_email_message(from_add=email_address, to_add=recipient, subject="Sheridan College - Win a parking pass!",
+        msg = create_email_message(from_add=email_address, to_add=recipient, subject="TEST SUBJECT!",
                                    plaintext_msg="plaintext_test", html_msg=HTML_MESSAGE)
 
         with smtplib.SMTP('smtp.gmail.com', port=587) as smtp_server:
